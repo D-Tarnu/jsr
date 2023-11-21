@@ -9,9 +9,10 @@ mats = [
     [[-3, -2, 1, 2], [-2, 0, -2, 1], [1, 3, -1, -5], [-3, -3, -2, -1]],
     [[1, 0, -3, -1], [-4, -2, -1, -4], [-1, 0, -1, 2], [-1, -2, -1, 2]]
     ]
+
 jsr.invar_poly(mats, num_smps = 10, num_iter = 10)
 ```
 
 Things to add: 
 - a bit that makes this work if a potential spectrum-maximizing product has multiple leading eigenvectors
-- and more algorithms to facilitate the computation and approximation of the joint spectral radius
+- more algorithms to facilitate the computation and approximation of the joint spectral radius
