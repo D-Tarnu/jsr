@@ -7,5 +7,5 @@ mats = [
     [[0, 1, 0], [0, -1, 0], [1, 0, 0]]
     ]
 now = datetime.now()
-jsr.invar_poly(mats, 10, 10, False)
+jsr.invar_poly(mats, 10, 10)
 print('Time elapsed = ', (datetime.now() - now).total_seconds())

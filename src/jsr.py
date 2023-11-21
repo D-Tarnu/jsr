@@ -28,7 +28,7 @@ def essential_vertices(cloud, vertices, complex, dim, num_pts, acc):
     
     return cloud
 
-def invar_poly(mats, num_smps, num_iter, prune=None, acc=0.000001):
+def invar_poly(mats, num_smps, num_iter, prune=False, acc=0.000001):
     mats = [np.array(M) for M in mats]
     cands = [np.eye(mats[0].shape[0])]
 
