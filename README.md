@@ -12,6 +12,15 @@ mats = [
 
 invar_poly(mats, num_smps = 10, num_iter = 10)
 ```
+To install using `pip`, run
+
+```
+pip install https://github.com/D-Tarnu/jsr.git
+```
+or, if that doesn't work, run
+```
+pip install git+https://github.com/D-Tarnu/jsr.git
+```
 
 Things to add: 
 - add optional flag to ignore sets of matrices with complex leading eigenvector (similarly for real leading eigenvector)
