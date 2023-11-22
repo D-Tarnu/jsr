@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from src import jsr
+from jsr import invar_poly
 
 mats = [
     [[1, 0, 2], [-1, 0, 2], [0, 1, 0]],
