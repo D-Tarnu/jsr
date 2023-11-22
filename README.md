@@ -14,5 +14,6 @@ invar_poly(mats, num_smps = 10, num_iter = 10)
 ```
 
 Things to add: 
+- add optional flag to ignore sets of matrices with complex leading eigenvector (similarly for real leading eigenvector)
 - a bit that makes this work if a potential spectrum-maximizing product has multiple leading eigenvectors
 - more algorithms to facilitate the computation and approximation of the joint spectral radius
