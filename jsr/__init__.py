@@ -1,1 +1,1 @@
-from jsr import invar_poly
+from algo import invar_poly
