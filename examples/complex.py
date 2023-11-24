@@ -10,4 +10,6 @@ now = datetime.now()
 invar_poly(mats, 10, 10)
 print('Time elapsed = ', (datetime.now() - now).total_seconds())
 
-# This is the example on p. 617 of "Extremal polytope norms for real families" by Guglielmi and Zennaro. This code finds the JSR in 6 iterations for num_smps = 1, agreeing with the result in said paper.
+# This is the example on p. 617 of "Extremal polytope norms for real families" by Guglielmi and Zennaro. 
+# This code finds the JSR in 6 iterations for an SMP length of 2, agreeing with the result in said paper.
+# Takes much longer than the real.py example due to working with complex leading eigenvectors.
